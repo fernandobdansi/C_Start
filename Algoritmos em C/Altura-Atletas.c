@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define TAM 3
+#define TAM 10
 
 void impAltMenorMaior(float alturaAtletas[TAM]){
   float soma=0,media;
@@ -23,8 +23,8 @@ int main(){
   system("clear");
   //Lendo altura dos atletas
   for(i=0;i<TAM;i++){
-  printf("Digite a altura do atletas %i\n",i+1);
-  scanf("%f",&alturaAtletas[i]);
+    printf("Digite a altura do atletas %i\n",i+1);
+    scanf("%f",&alturaAtletas[i]);
   }
 
   impAltMenorMaior(alturaAtletas);
