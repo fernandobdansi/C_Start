@@ -16,20 +16,7 @@ int main(){
     }
 
     for(i=0;i<TAM;i++){
-      for(j=0;j<TAM;j++){
-        if(i==0 && j==4){
-          printf("Matriz Diagonal: %c\n",matriz[i][j]);
-        }else if(i==1 && j==3){
-          printf("Matriz Diagonal: %c\n",matriz[i][j]);
-        }else if(i==2 && j==2){
-          printf("Matriz Diagonal: %c\n",matriz[i][j]);
-        }else if(i==3 && j==1){
-          printf("Matriz Diagonal: %c\n",matriz[i][j]);
-        }else if(i==4 && j==0){
-          printf("Matriz Diagonal: %c\n",matriz[i][j]);
-        }
-
-      }
+      printf("Diagonal pricipal : %c\n",matriz[i][i]);
     }
 
 
