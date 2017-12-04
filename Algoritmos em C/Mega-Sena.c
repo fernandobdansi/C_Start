@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+
 //Fazendo a estrutura jogador
 typedef struct jogadores {
     char nome[30];
