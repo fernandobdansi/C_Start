@@ -7,7 +7,6 @@ void impAltMenorMaior(float alturaAtletas[TAM]){
     for(i=0;i<TAM;i++){
       soma = soma+alturaAtletas[i];
     }
-
       media = soma/TAM;
       printf("A media de Altura e %.2f\n",media);
     for(i=0;i<TAM;i++){
