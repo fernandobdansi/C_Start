@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 // Bubble Sort
 void ordenaVetor(float v[], int n ) {
     int i,j,z;
@@ -12,6 +13,7 @@ void ordenaVetor(float v[], int n ) {
                 v[j+1] = tmp;
             }
 }
+
 int main() {
     float Vetor[60];
     int n, i, j;
@@ -28,4 +30,6 @@ int main() {
         printf("%.0f\n",Vetor[i]);
   }
   system("sleep 2");
+    
+  return 0;
 }
