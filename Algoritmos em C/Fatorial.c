@@ -34,6 +34,8 @@ int main(){
         printf("\t\t %i \t\t %i \n",a[i],b[i]);
     }
     system("pause");
+    
+    return 0;
 }
 
 
