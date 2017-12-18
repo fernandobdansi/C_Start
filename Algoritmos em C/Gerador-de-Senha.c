@@ -30,4 +30,5 @@ int main(){
     gerarSenha(senha, tamanho);
     system("clear");
     printf("Senha: %s\n",senha);
-}
+    return 0;
+    }
