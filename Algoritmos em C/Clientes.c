@@ -119,4 +119,6 @@ int main(){
                     break;
         }
     }while(opc!=0);
+    
+    return 0;
 }
