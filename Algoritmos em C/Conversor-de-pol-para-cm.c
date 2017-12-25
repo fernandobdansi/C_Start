@@ -12,4 +12,6 @@ int main(){
     scanf("%f",&pol);
     // Usando Função do C para converter pol para cm
     printf("O valor em centimetros eh: %.2f\n", pol2cm(pol));
+    
+    return 0;
 }
