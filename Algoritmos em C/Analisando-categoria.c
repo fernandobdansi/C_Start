@@ -29,4 +29,6 @@ int main(){
     // Mostrando categoria da Pessoa
     system("clear");
     categoria(idade);
+    
+    return 0;
 }
