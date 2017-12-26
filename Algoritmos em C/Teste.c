@@ -20,7 +20,6 @@ int main()
     char string[50];
     int i,h, pos;
 
-
     scanf("%d",&qtd);
 
     for(i=0; i<qtd; i++)
@@ -37,9 +36,6 @@ int main()
         printf("%s\n",string);
 
     }
-
-
-
 
     return 0;
 }
