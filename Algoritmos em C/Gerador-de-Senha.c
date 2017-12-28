@@ -31,4 +31,4 @@ int main(){
     system("clear");
     printf("Senha: %s\n",senha);
     return 0;
-    }
+}
