@@ -19,7 +19,5 @@ int main(){
       printf("Diagonal pricipal : %c\n",matriz[i][i]);
     }
 
-
-
   return 0;
 }
