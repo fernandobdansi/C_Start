@@ -20,6 +20,7 @@ int main(){
   float alturaAtletas[TAM];
   int i;
   system("clear");
+  
   //Lendo altura dos atletas
   for(i=0;i<TAM;i++){
     printf("Digite a altura do atletas %i\n",i+1);
@@ -28,5 +29,6 @@ int main(){
 
   impAltMenorMaior(alturaAtletas);
   system("sleep 2");
+  
   return 0;
 }
