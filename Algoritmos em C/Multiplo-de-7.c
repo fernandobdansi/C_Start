@@ -16,7 +16,7 @@ int main(){
   //capturar o Valor de N
   printf("Digite o numero:\n");
   scanf("%i",&n);
-printf("########################### Multiplos de Sete###########################\n");
+  printf("########################### Multiplos de Sete###########################\n");
   for(i=1;i<=n;i++){
     //Verificar todos os numeros multiplos de 7
     if(multiploSete(i)==1){
@@ -25,7 +25,8 @@ printf("########################### Multiplos de Sete###########################
 
   }
 
-printf("########################################################################\n");
+  printf("########################################################################\n");
   system("sleep 2");
+    
   return 0;
 }
