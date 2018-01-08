@@ -39,5 +39,6 @@ void cadastro(){
 
 int main(){
     cadastro();
+    
     return 0;
 }
