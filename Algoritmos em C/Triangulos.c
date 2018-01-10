@@ -26,4 +26,6 @@ int main(){
     scanf("%d",&z);
 
     triangulo(x,y,z);
+    
+    return 0;
 }
