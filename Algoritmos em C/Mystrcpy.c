@@ -2,7 +2,6 @@
 #include<stdlib.h>
 #include<string.h>
 
-
 void mystrcpy(char str1[50],char str2[50]){
 
   int i;
@@ -15,11 +14,11 @@ void mystrcpy(char str1[50],char str2[50]){
 
 int main(){
 
-  char str1[50],str2[50];
+    char str1[50],str2[50];
 
 
-  printf("Digite o nome A ser copiado: \n");
-  scanf("%[^\n]s",str1);
+    printf("Digite o nome A ser copiado: \n");
+    scanf("%[^\n]s",str1);
 
 
     system("cls");
@@ -28,5 +27,6 @@ int main(){
     printf("%s \n", str2);
 
     system("pause");
-  return 0;
+  
+    return 0;
 }
