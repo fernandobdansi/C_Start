@@ -24,7 +24,7 @@ int main(){
       printf("Digite o numero da posição %i do Vetor2\n",i+1);
       scanf("%f",&vetor2[i]);
     }
-    system("clear");
+    system("cls");
     prodVet01Vet02(vetor1,vetor2,resultado);
 
   return 0;
