@@ -31,4 +31,6 @@ int main(){
   lerSomar(matriz);
 
   system("sleep 2");
+  
+  return 0;
 }
