@@ -10,4 +10,6 @@ int main(){
     scanf("%f",&pes);
     // Usando Função do c para converter de pes para metros
     printf("%.2f pes eh igual a %.2f metros\n", pes, pes2metros(pes));
+    
+    return 0;
 }
