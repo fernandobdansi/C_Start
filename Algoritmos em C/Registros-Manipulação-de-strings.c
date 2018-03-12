@@ -46,7 +46,7 @@ int main(){
       printf("Digite a profissão que deseja imprimir\n");
       gets(profEs);
 
-  MostrarOsFun(profi,profEs);
+    MostrarOsFun(profi,profEs);
 
   return 0;
 }
