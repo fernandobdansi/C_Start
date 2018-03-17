@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 #define Tam 10
+
 int main(){
   char senha[Tam][6];
   int vet[Tam],cont;
@@ -31,9 +32,6 @@ int main(){
   for(i=0;i<Tam;i++){
     printf("Senha %i eh: %i\n",i+1,vet[i]);
   }
-
-
-
 
   return 0;
 }
