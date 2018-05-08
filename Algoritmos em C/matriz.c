@@ -8,8 +8,7 @@ void lerMatriz(int matriz[][4]){
   for(i=0;i<3;i++){
     for(j=0;j<4;j++){
         matriz[i][j]=num;
-             num++;
-
+        num++;
     }
   }
 }
