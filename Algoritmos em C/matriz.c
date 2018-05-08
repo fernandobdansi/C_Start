@@ -8,15 +8,16 @@ void lerMatriz(int matriz[][4]){
   for(i=0;i<3;i++){
     for(j=0;j<4;j++){
         matriz[i][j]=num;
+             num++;
+
     }
-     num++;
   }
 }
 
-int mediaMatriz(int matriz[][4]){
+float mediaMatriz(int matriz[][4]){
   int i,j;
-  int num=0;
-  int media=0;
+  float num=0;
+  float media=0;
 
   for(i=0;i<3;i++){
     for(j=0;j<4;j++){
@@ -67,7 +68,7 @@ void imprimir(int matriz[][4]){
 int main(){
   int i,j;
   int matriz[3][4];
-  int media;
+  float media;
 
   lerMatriz(matriz);
 
@@ -75,7 +76,7 @@ int main(){
 
   media=mediaMatriz(matriz);
 
-  printf("\nMedia=%d",media);
+  printf("\nMedia=%.2f",media);
 
   verificarRepeticao(matriz);
 
